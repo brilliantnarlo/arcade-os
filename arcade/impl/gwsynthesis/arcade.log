@@ -21,11 +21,17 @@ WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users
 WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\video_timing.v":83)
 Compiling module 'graphic_render'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\graphic_render.v":3)
 Compiling module 'menu'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\system\menu.v":1)
-Compiling module 'font_render'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":1)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 3("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":25)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 3("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":26)
+Compiling module 'font_render(TEXT_X=25,TEXT_Y=25,TEXT_LEN=12,TEXT="ARCADE GAMES")'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":1)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":29)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":30)
 Compiling module 'font_rom'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":1)
-WARN  (EX2420) : Latch inferred for net 'bitmap[7]'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":25)
+WARN  (EX2420) : Latch inferred for net 'bitmap[7]'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+Compiling module 'font_render(TEXT_X=25,TEXT_Y=50,TEXT_LEN=7,TEXT="01 PONG")'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":1)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":29)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":30)
+Compiling module 'font_render(TEXT_X=25,TEXT_Y=70,TEXT_LEN=11,TEXT="02 BREAKOUT")'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":1)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":29)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":30)
 WARN  (EX3670) : Actual bit length 10 differs from formal bit length 11 for port 'x'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\a1_bus.v":86)
 Compiling module '**'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\dvi_tx\dvi_tx.v":1088)
 NOTE  (EX0101) : Current top module is "main"
@@ -42,10 +48,27 @@ Running inference ...
 Running technical mapping ...
 [60%] Tech-Mapping Phase 0 completed
 [65%] Tech-Mapping Phase 1 completed
+WARN  (DI0003) : Latch inferred for net 'bitmap[6]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[5]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[4]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[3]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[2]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[1]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[6]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[5]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[4]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[3]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[2]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[1]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[6]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[5]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[4]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[3]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[2]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
+WARN  (DI0003) : Latch inferred for net 'bitmap[1]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v":485)
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
-WARN  (NL0002) : The module "font_rom" instantiated to "font" is swept in optimizing("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":34)
 WARN  (NL0002) : The module "input_controller" instantiated to "input_ctrl" is swept in optimizing("C:\Users\pyqui\Desktop\arcade-os\arcade\src\a1_bus.v":64)
 [95%] Generate netlist file "C:\Users\pyqui\Desktop\arcade-os\arcade\impl\gwsynthesis\arcade.vg" completed
 [100%] Generate report file "C:\Users\pyqui\Desktop\arcade-os\arcade\impl\gwsynthesis\arcade_syn.rpt.html" completed
