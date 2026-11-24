@@ -20,6 +20,8 @@ module menu(
     wire pacman_on;
     wire platformer_on;
 
+    wire instruction_on;
+
     wire [7:0] text_red, text_green, text_blue;
 
     font_render #(
@@ -70,7 +72,7 @@ module menu(
     font_render #(
     .TEXT_X(25),
     .TEXT_Y(90),
-    .TEXT_LEN(5),
+    .TEXT_LEN(8),
     .TEXT("03 SNAKE")
     ) snake(
         .x(x[9:0]),
@@ -85,7 +87,7 @@ module menu(
     font_render #(
     .TEXT_X(25),
     .TEXT_Y(110),
-    .TEXT_LEN(12),
+    .TEXT_LEN(14),
     .TEXT("04 TIC TAC TOE")
     ) tic_tac_toe(
         .x(x[9:0]),
@@ -100,7 +102,7 @@ module menu(
     font_render #(
     .TEXT_X(25),
     .TEXT_Y(130),
-    .TEXT_LEN(7),
+    .TEXT_LEN(9),
     .TEXT("05 RACING")
     ) racing(
         .x(x[9:0]),
@@ -112,11 +114,101 @@ module menu(
         .text_on(racing_on)
     );
 
+    font_render #(
+    .TEXT_X(25),
+    .TEXT_Y(150),
+    .TEXT_LEN(9),
+    .TEXT("06 FLAPPY")
+    ) flappy(
+        .x(x[9:0]),
+        .y(y),
+        .de(de_in),
+        .red(),
+        .green(),
+        .blue(),
+        .text_on(flappy_on)
+    );
+
+    font_render #(
+    .TEXT_X(25),
+    .TEXT_Y(170),
+    .TEXT_LEN(9),
+    .TEXT("07 TETRIS")
+    ) tetris(
+        .x(x[9:0]),
+        .y(y),
+        .de(de_in),
+        .red(),
+        .green(),
+        .blue(),
+        .text_on(tetris_on)
+    );
+
+    font_render #(
+    .TEXT_X(25),
+    .TEXT_Y(190),
+    .TEXT_LEN(17),
+    .TEXT("08 SPACE INVADERS")
+    ) space_invaders(
+        .x(x[9:0]),
+        .y(y),
+        .de(de_in),
+        .red(),
+        .green(),
+        .blue(),
+        .text_on(space_invaders_on)
+    );
+
+    font_render #(
+    .TEXT_X(25),
+    .TEXT_Y(210),
+    .TEXT_LEN(10),
+    .TEXT("09 PAC-MAN")
+    ) pacman(
+        .x(x[9:0]),
+        .y(y),
+        .de(de_in),
+        .red(),
+        .green(),
+        .blue(),
+        .text_on(pacman_on)
+    );
+
+    font_render #(
+    .TEXT_X(25),
+    .TEXT_Y(230),
+    .TEXT_LEN(13),
+    .TEXT("10 PLATFORMER")
+    ) platformer(
+        .x(x[9:0]),
+        .y(y),
+        .de(de_in),
+        .red(),
+        .green(),
+        .blue(),
+        .text_on(platformer_on)
+    );
+
+    font_render #(
+    .TEXT_X(25),
+    .TEXT_Y(270),
+    .TEXT_LEN(38),
+    .TEXT("SELECT A GAME: UP/DOWN   PLAY: CENTER")
+    ) instruction(
+        .x(x[9:0]),
+        .y(y),
+        .de(de_in),
+        .red(),
+        .green(),
+        .blue(),
+        .text_on(instruction_on)
+    );
+
     always @(*) begin
         {red, green, blue} = 24'h000000;
 
         if (de_in && x < 11'd640 && y < 10'd480) begin
-            if (text_on || pong_on || breakout_on || snake_on || tic_tac_toe_on || racing_on || flappy_on || tetris_on || space_invaders_on || pacman_on || platformer_on)
+            if (text_on || pong_on || breakout_on || snake_on || tic_tac_toe_on || racing_on || flappy_on || tetris_on || space_invaders_on || pacman_on || platformer_on || instruction_on)
                 {red, green, blue} = 24'hFFFFFF;
             else
                 {red, green, blue} = 24'h000000;

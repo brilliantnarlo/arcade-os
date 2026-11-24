@@ -481,6 +481,214 @@ module font_rom(
                 endcase
             end
 
+            8'h2E: begin // .
+                case (row)
+                    3'b000: bitmap = 8'b00000000;
+                    3'b001: bitmap = 8'b00000000;
+                    3'b010: bitmap = 8'b00000000;
+                    3'b011: bitmap = 8'b00000000;
+                    3'b100: bitmap = 8'b00000000;
+                    3'b101: bitmap = 8'b00011000;
+                    3'b110: bitmap = 8'b00011000;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
+            8'h2D: begin // -
+                case (row)
+                    3'b000: bitmap = 8'b00000000;
+                    3'b001: bitmap = 8'b00000000;
+                    3'b010: bitmap = 8'b00000000;
+                    3'b011: bitmap = 8'b01111110;
+                    3'b100: bitmap = 8'b00000000;
+                    3'b101: bitmap = 8'b00000000;
+                    3'b110: bitmap = 8'b00000000;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
+            8'h5F: begin // _
+                case (row)
+                    3'b000: bitmap = 8'b00000000;
+                    3'b001: bitmap = 8'b00000000;
+                    3'b010: bitmap = 8'b00000000;
+                    3'b011: bitmap = 8'b00000000;
+                    3'b100: bitmap = 8'b00000000;
+                    3'b101: bitmap = 8'b00000000;
+                    3'b110: bitmap = 8'b01111110;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
+            8'h3A: begin // :
+                case (row)
+                    3'b000: bitmap = 8'b00000000;
+                    3'b001: bitmap = 8'b00000000;
+                    3'b010: bitmap = 8'b00011000;
+                    3'b011: bitmap = 8'b00011000;
+                    3'b100: bitmap = 8'b00000000;
+                    3'b101: bitmap = 8'b00011000;
+                    3'b110: bitmap = 8'b00011000;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
+            8'h2F: begin // /
+                case (row)
+                    3'b000: bitmap = 8'b00000010;
+                    3'b001: bitmap = 8'b00000100;
+                    3'b010: bitmap = 8'b00001000;
+                    3'b011: bitmap = 8'b00010000;
+                    3'b100: bitmap = 8'b00100000;
+                    3'b101: bitmap = 8'b01000000;
+                    3'b110: bitmap = 8'b10000000;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
+            8'h5C: begin // \
+                case (row)
+                    3'b000: bitmap = 8'b10000000;
+                    3'b001: bitmap = 8'b01000000;
+                    3'b010: bitmap = 8'b00100000;
+                    3'b011: bitmap = 8'b00010000;
+                    3'b100: bitmap = 8'b00001000;
+                    3'b101: bitmap = 8'b00000100;
+                    3'b110: bitmap = 8'b00000010;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
+            8'h21: begin // !
+                case (row)
+                    3'b000: bitmap = 8'b00010000;
+                    3'b001: bitmap = 8'b00010000;
+                    3'b010: bitmap = 8'b00010000;
+                    3'b011: bitmap = 8'b00010000;
+                    3'b100: bitmap = 8'b00010000;
+                    3'b101: bitmap = 8'b00000000;
+                    3'b110: bitmap = 8'b00010000;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
+            8'h3F: begin // ?
+                case (row)
+                    3'b000: bitmap = 8'b00111100;
+                    3'b001: bitmap = 8'b01000010;
+                    3'b010: bitmap = 8'b00000010;
+                    3'b011: bitmap = 8'b00001100;
+                    3'b100: bitmap = 8'b00010000;
+                    3'b101: bitmap = 8'b00000000;
+                    3'b110: bitmap = 8'b00010000;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
+            8'h40: begin // @
+                case (row)
+                    3'b000: bitmap = 8'b00111100;
+                    3'b001: bitmap = 8'b01000010;
+                    3'b010: bitmap = 8'b01011010;
+                    3'b011: bitmap = 8'b01010110;
+                    3'b100: bitmap = 8'b01011110;
+                    3'b101: bitmap = 8'b01000000;
+                    3'b110: bitmap = 8'b00111100;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
+            8'h23: begin // #
+                case (row)
+                    3'b000: bitmap = 8'b00010100;
+                    3'b001: bitmap = 8'b00010100;
+                    3'b010: bitmap = 8'b01111110;
+                    3'b011: bitmap = 8'b00010100;
+                    3'b100: bitmap = 8'b01111110;
+                    3'b101: bitmap = 8'b00010100;
+                    3'b110: bitmap = 8'b00010100;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
+            8'h24: begin // $
+                case (row)
+                    3'b000: bitmap = 8'b00011100;
+                    3'b001: bitmap = 8'b00101010;
+                    3'b010: bitmap = 8'b00101000;
+                    3'b011: bitmap = 8'b00011100;
+                    3'b100: bitmap = 8'b00001010;
+                    3'b101: bitmap = 8'b00101010;
+                    3'b110: bitmap = 8'b00011100;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
+            8'h25: begin // %
+                case (row)
+                    3'b000: bitmap = 8'b01100010;
+                    3'b001: bitmap = 8'b01100100;
+                    3'b010: bitmap = 8'b00001000;
+                    3'b011: bitmap = 8'b00010000;
+                    3'b100: bitmap = 8'b00100011;
+                    3'b101: bitmap = 8'b01000110;
+                    3'b110: bitmap = 8'b00000000;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
+            8'h26: begin // &
+                case (row)
+                    3'b000: bitmap = 8'b00110000;
+                    3'b001: bitmap = 8'b01001000;
+                    3'b010: bitmap = 8'b00110000;
+                    3'b011: bitmap = 8'b01010100;
+                    3'b100: bitmap = 8'b00101010;
+                    3'b101: bitmap = 8'b01000110;
+                    3'b110: bitmap = 8'b00111101;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
+            8'h27: begin // '
+                case (row)
+                    3'b000: bitmap = 8'b00010000;
+                    3'b001: bitmap = 8'b00010000;
+                    3'b010: bitmap = 8'b00010000;
+                    3'b011: bitmap = 8'b00000000;
+                    3'b100: bitmap = 8'b00000000;
+                    3'b101: bitmap = 8'b00000000;
+                    3'b110: bitmap = 8'b00000000;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
+            8'h28: begin // (
+                case (row)
+                    3'b000: bitmap = 8'b00001000;
+                    3'b001: bitmap = 8'b00010000;
+                    3'b010: bitmap = 8'b00100000;
+                    3'b011: bitmap = 8'b00100000;
+                    3'b100: bitmap = 8'b00100000;
+                    3'b101: bitmap = 8'b00010000;
+                    3'b110: bitmap = 8'b00001000;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
+            8'h29: begin // )
+                case (row)
+                    3'b000: bitmap = 8'b00100000;
+                    3'b001: bitmap = 8'b00010000;
+                    3'b010: bitmap = 8'b00001000;
+                    3'b011: bitmap = 8'b00001000;
+                    3'b100: bitmap = 8'b00001000;
+                    3'b101: bitmap = 8'b00010000;
+                    3'b110: bitmap = 8'b00100000;
+                    3'b111: bitmap = 8'b00000000;
+                endcase
+            end
+
         endcase
     end
 

@@ -73,7 +73,7 @@
         "SubInsts" : [
          {
           "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
-          "InstLine" : 30,
+          "InstLine" : 32,
           "InstName" : "text",
           "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
           "ModuleLine" : 1,
@@ -91,7 +91,7 @@
          },
          {
           "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
-          "InstLine" : 45,
+          "InstLine" : 47,
           "InstName" : "pong",
           "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
           "ModuleLine" : 1,
@@ -109,7 +109,7 @@
          },
          {
           "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
-          "InstLine" : 60,
+          "InstLine" : 62,
           "InstName" : "breakout",
           "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
           "ModuleLine" : 1,
@@ -127,8 +127,152 @@
          },
          {
           "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
-          "InstLine" : 75,
+          "InstLine" : 77,
           "InstName" : "snake",
+          "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "font_render",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+            "InstLine" : 42,
+            "InstName" : "font",
+            "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_rom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "font_rom"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
+          "InstLine" : 92,
+          "InstName" : "tic_tac_toe",
+          "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "font_render",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+            "InstLine" : 42,
+            "InstName" : "font",
+            "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_rom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "font_rom"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
+          "InstLine" : 107,
+          "InstName" : "racing",
+          "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "font_render",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+            "InstLine" : 42,
+            "InstName" : "font",
+            "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_rom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "font_rom"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
+          "InstLine" : 122,
+          "InstName" : "flappy",
+          "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "font_render",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+            "InstLine" : 42,
+            "InstName" : "font",
+            "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_rom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "font_rom"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
+          "InstLine" : 137,
+          "InstName" : "tetris",
+          "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "font_render",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+            "InstLine" : 42,
+            "InstName" : "font",
+            "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_rom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "font_rom"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
+          "InstLine" : 152,
+          "InstName" : "space_invaders",
+          "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "font_render",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+            "InstLine" : 42,
+            "InstName" : "font",
+            "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_rom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "font_rom"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
+          "InstLine" : 167,
+          "InstName" : "pacman",
+          "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "font_render",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+            "InstLine" : 42,
+            "InstName" : "font",
+            "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_rom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "font_rom"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
+          "InstLine" : 182,
+          "InstName" : "platformer",
+          "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "font_render",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+            "InstLine" : 42,
+            "InstName" : "font",
+            "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_rom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "font_rom"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
+          "InstLine" : 197,
+          "InstName" : "instruction",
           "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
           "ModuleLine" : 1,
           "ModuleName" : "font_render",
