@@ -16,5 +16,13 @@
     "ModuleName" : "a1_bus"
    }
   ]
+ },
+ {
+  "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/input_controller.v",
+  "InstLine" : 1,
+  "InstName" : "input_controller",
+  "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/input_controller.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "input_controller"
  }
 ]

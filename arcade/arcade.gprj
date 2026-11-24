@@ -7,5 +7,6 @@
     <FileList>
         <File path="src/a1_bus.v" type="file.verilog" enable="1"/>
         <File path="src/main.v" type="file.verilog" enable="1"/>
+        <File path="src/system/input_controller.v" type="file.verilog" enable="1"/>
     </FileList>
 </Project>

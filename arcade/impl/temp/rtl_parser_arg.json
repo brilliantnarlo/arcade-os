@@ -2,11 +2,15 @@
  "Device" : "GW2A-18C",
  "Files" : [
   {
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/main.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/input_controller.v",
    "Type" : "verilog"
   }
  ],
