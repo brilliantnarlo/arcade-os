@@ -7,7 +7,6 @@ Running placement......
 [10%] Placement Phase 0 completed
 [20%] Placement Phase 1 completed
 [30%] Placement Phase 2 completed
-WARN  (TA1132) :  'bus/gr/gui_menu/instruction/font/n609_9' was determined to be a clock but was not created.
 WARN  (TA1132) :  'bus/clkdiv/clkdiv_inst/CLKOUT.default_gen_clk' was determined to be a clock but was not created.
 [50%] Placement Phase 3 completed
 Running routing......
@@ -27,5 +26,5 @@ Generate file "C:\Users\pyqui\Desktop\arcade-os\arcade\impl\pnr\arcade.pin.html"
 Generate file "C:\Users\pyqui\Desktop\arcade-os\arcade\impl\pnr\arcade.rpt.html" completed
 Generate file "C:\Users\pyqui\Desktop\arcade-os\arcade\impl\pnr\arcade.rpt.txt" completed
 Generate file "C:\Users\pyqui\Desktop\arcade-os\arcade\impl\pnr\arcade.tr.html" completed
-Tue Nov 24 21:05:40 2026
+Tue Nov 24 21:07:09 2026
 

@@ -192,7 +192,7 @@ module menu(
     font_render #(
     .TEXT_X(25),
     .TEXT_Y(270),
-    .TEXT_LEN(38),
+    .TEXT_LEN(37),
     .TEXT("SELECT A GAME: UP/DOWN   PLAY: CENTER")
     ) instruction(
         .x(x[9:0]),
