@@ -61,7 +61,17 @@
       "InstName" : "gr",
       "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/graphic_render.v",
       "ModuleLine" : 3,
-      "ModuleName" : "graphic_render"
+      "ModuleName" : "graphic_render",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/graphic_render.v",
+        "InstLine" : 28,
+        "InstName" : "gui_menu",
+        "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "menu"
+       }
+      ]
      }
     ]
    }

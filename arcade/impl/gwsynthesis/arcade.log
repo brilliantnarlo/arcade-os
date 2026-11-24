@@ -6,6 +6,7 @@ Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\gowin_clkdiv
 Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\gowin_rpll\gowin_rpll.v'
 Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\main.v'
 Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\system\input_controller.v'
+Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\system\menu.v'
 Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\graphic_render.v'
 Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\video_timing.v'
 Compiling module 'main'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\main.v":1)
@@ -17,6 +18,7 @@ Compiling module 'video_timing'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\vid
 WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\video_timing.v":82)
 WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\video_timing.v":83)
 Compiling module 'graphic_render'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\graphic_render.v":3)
+Compiling module 'menu'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\system\menu.v":1)
 WARN  (EX3670) : Actual bit length 10 differs from formal bit length 11 for port 'x'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\a1_bus.v":82)
 Compiling module '**'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\dvi_tx\dvi_tx.v":1088)
 NOTE  (EX0101) : Current top module is "main"
@@ -36,6 +38,7 @@ Running technical mapping ...
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "menu" instantiated to "gui_menu" is swept in optimizing("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\graphic_render.v":35)
 WARN  (NL0002) : The module "input_controller" instantiated to "input_ctrl" is swept in optimizing("C:\Users\pyqui\Desktop\arcade-os\arcade\src\a1_bus.v":60)
 [95%] Generate netlist file "C:\Users\pyqui\Desktop\arcade-os\arcade\impl\gwsynthesis\arcade.vg" completed
 [100%] Generate report file "C:\Users\pyqui\Desktop\arcade-os\arcade\impl\gwsynthesis\arcade_syn.rpt.html" completed

@@ -20,6 +20,19 @@ module graphic_render(
         output reg [7:0] blue
 );
 
+    // Internal RGB wires
+    wire [7:0] draw_red;
+    wire [7:0] draw_green;
+    wire [7:0] draw_blue;
+
+    menu gui_menu(
+        .x(x),
+        .y(y),
+
+        .red(draw_red),
+        .green(draw_green),
+        .blue(draw_blue)
+    );
 
     always @(posedge clk or negedge reset) begin
         if (!reset) begin
@@ -39,9 +52,9 @@ module graphic_render(
             de_out    <= de_in; 
 
             if (de_in) begin   
-                red   <= 8'd255;
-                green <= 8'd255;
-                blue  <= 8'd255;
+                red   <= draw_red;
+                green <= draw_green;
+                blue  <= draw_blue;
 
             end            
             else begin                

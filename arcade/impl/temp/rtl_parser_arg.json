@@ -26,6 +26,10 @@
    "Type" : "verilog"
   },
   {
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/graphic_render.v",
    "Type" : "verilog"
   },
