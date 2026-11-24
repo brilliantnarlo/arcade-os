@@ -1,4 +1,6 @@
 module a1_bus(
+    input wire clk,
+    input wire reset,
     input wire button_up,
     input wire button_down,
     input wire button_left,
@@ -15,6 +17,17 @@ module a1_bus(
         .button_right(button_right),
         .button_center(button_center),
         .led(led)
+    );
+
+
+    video_timing vt(
+        .clk(clk),
+        .reset(reset),
+        .hsync(hsync),
+        .vsync(vsync),
+        .de(de),
+        .x(x),
+        .y(y)
     );
 
 
