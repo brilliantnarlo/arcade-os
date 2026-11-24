@@ -1,3 +1,4 @@
+<img width="1448" height="1086" alt="Minimal FPGA Arcade Menu with Pong Selected" src="https://github.com/user-attachments/assets/ea4a7f0f-a947-4e19-be47-db70552604ab" />
 # Arcade OS
 
 An FPGA-based arcade gaming system designed and implemented entirely using Verilog HDL.
