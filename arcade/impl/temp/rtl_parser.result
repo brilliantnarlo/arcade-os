@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/main.v",
+  "InstLine" : 1,
+  "InstName" : "main",
+  "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/main.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "main",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/main.v",
+    "InstLine" : 3,
+    "InstName" : "bus",
+    "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "a1_bus"
+   }
+  ]
+ }
+]
