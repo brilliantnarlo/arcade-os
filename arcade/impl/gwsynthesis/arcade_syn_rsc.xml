@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="main"/>
+<Module name="main" T_Register="97(0)" T_Alu="69(0)" T_Lut="271(0)">
+ <SubModule name="bus" Register="73" Alu="69" Lut="229" T_Register="97(73)" T_Alu="69(69)" T_Lut="271(229)">
+  <SubModule name="rpll"/>
+  <SubModule name="clkdiv"/>
+  <SubModule name="vt" Register="23" Lut="42" T_Register="23(23)" T_Lut="42(42)"/>
+  <SubModule name="gr" Register="1" T_Register="1(1)"/>
+ </SubModule>
+</Module>

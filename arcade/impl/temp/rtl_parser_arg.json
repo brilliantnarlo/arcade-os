@@ -6,11 +6,27 @@
    "Type" : "verilog"
   },
   {
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/dvi_tx/dvi_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/gowin_clkdiv/gowin_clkdiv.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/main.v",
    "Type" : "verilog"
   },
   {
    "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/input_controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/graphic_render.v",
    "Type" : "verilog"
   },
   {

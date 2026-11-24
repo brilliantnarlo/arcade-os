@@ -1,3 +1,39 @@
+// 27 MHz oscillator
+IO_LOC "board_clk" H11;
+IO_PORT "board_clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+
+
+// HDMI clock pair
+IO_LOC "tmds_clk_p" G16;
+IO_PORT "tmds_clk_p" PULL_MODE=NONE DRIVE=3.5;
+
+IO_LOC "tmds_clk_n" H15;
+IO_PORT "tmds_clk_n" PULL_MODE=NONE DRIVE=3.5;
+
+// HDMI data channel 0
+IO_LOC "tmds_data_p[0]" H14;
+IO_PORT "tmds_data_p[0]" PULL_MODE=NONE DRIVE=3.5;
+
+IO_LOC "tmds_data_n[0]" H16;
+IO_PORT "tmds_data_n[0]" PULL_MODE=NONE DRIVE=3.5;
+
+// HDMI data channel 1
+IO_LOC "tmds_data_p[1]" J15;
+IO_PORT "tmds_data_p[1]" PULL_MODE=NONE DRIVE=3.5;
+
+IO_LOC "tmds_data_n[1]" K16;
+IO_PORT "tmds_data_n[1]" PULL_MODE=NONE DRIVE=3.5;
+
+// HDMI data channel 2
+IO_LOC "tmds_data_p[2]" K14;
+IO_PORT "tmds_data_p[2]" PULL_MODE=NONE DRIVE=3.5;
+
+IO_LOC "tmds_data_n[2]" K15;
+IO_PORT "tmds_data_n[2]" PULL_MODE=NONE DRIVE=3.5;
+
+
+
 // PMOD J6 - Directional buttons
 
 IO_LOC "button_up" B12;

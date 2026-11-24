@@ -9,7 +9,7 @@
   "SubInsts" : [
    {
     "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/main.v",
-    "InstLine" : 10,
+    "InstLine" : 19,
     "InstName" : "bus",
     "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
     "ModuleLine" : 1,
@@ -17,11 +17,51 @@
     "SubInsts" : [
      {
       "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
-      "InstLine" : 11,
+      "InstLine" : 95,
+      "InstName" : "your_instance_name",
+      "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/dvi_tx/dvi_tx.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "DVI_TX_Top"
+     },
+     {
+      "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
+      "InstLine" : 40,
+      "InstName" : "rpll",
+      "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/gowin_rpll/gowin_rpll.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_rPLL"
+     },
+     {
+      "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
+      "InstLine" : 46,
+      "InstName" : "clkdiv",
+      "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/gowin_clkdiv/gowin_clkdiv.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_CLKDIV"
+     },
+     {
+      "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
+      "InstLine" : 53,
       "InstName" : "input_ctrl",
       "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/input_controller.v",
       "ModuleLine" : 1,
       "ModuleName" : "input_controller"
+     },
+     {
+      "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
+      "InstLine" : 63,
+      "InstName" : "vt",
+      "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/video_timing.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "video_timing"
+     },
+     {
+      "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
+      "InstLine" : 75,
+      "InstName" : "gr",
+      "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/graphic_render.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "graphic_render"
      }
     ]
    }

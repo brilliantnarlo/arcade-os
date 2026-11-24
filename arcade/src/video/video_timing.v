@@ -40,8 +40,6 @@ module video_timing #(
         if (!reset) begin
             h_counter <= 10'd0;
             v_counter <= 10'd0;
-            x <= 10'd0;
-            y <= 10'd0;
         end
 
         else if (h_counter == H_TOTAL - 1) begin
@@ -60,8 +58,8 @@ module video_timing #(
         end
     end
 
-    wire h_active = (h_counter >= H_START) && (h_counter <= H_END);
-    wire v_active = (v_counter >= V_START) && (v_counter <= V_END);
+    wire h_active = (h_counter >= H_START) && (h_counter < H_END);
+    wire v_active = (v_counter >= V_START) && (v_counter < V_END);
 
     wire active = v_active && h_active;
 
@@ -69,12 +67,17 @@ module video_timing #(
         if (!reset) begin
             hsync <= 1'b0;
             vsync <= 1'b0;
+
+            de <= 1'b0;
+
             x <= 10'd0;
             y <= 10'd0;
+
         end else begin
             hsync <= !(h_counter < H_SYNC_PULSE);
             vsync <= !(v_counter < V_SYNC_PULSE);
             de <= active;
+
             if (active) begin
                 x <= h_counter - H_START;
                 y <= v_counter - V_START;
@@ -84,8 +87,5 @@ module video_timing #(
             end
         end
     end
-
-
-
 
 endmodule
