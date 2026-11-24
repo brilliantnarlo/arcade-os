@@ -9,20 +9,22 @@
   "SubInsts" : [
    {
     "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/main.v",
-    "InstLine" : 3,
+    "InstLine" : 10,
     "InstName" : "bus",
     "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
     "ModuleLine" : 1,
-    "ModuleName" : "a1_bus"
+    "ModuleName" : "a1_bus",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
+      "InstLine" : 11,
+      "InstName" : "input_ctrl",
+      "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/input_controller.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "input_controller"
+     }
+    ]
    }
   ]
- },
- {
-  "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/input_controller.v",
-  "InstLine" : 1,
-  "InstName" : "input_controller",
-  "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/input_controller.v",
-  "ModuleLine" : 1,
-  "ModuleName" : "input_controller"
  }
 ]

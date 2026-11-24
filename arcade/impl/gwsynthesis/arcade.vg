@@ -1,11 +1,12 @@
 //
 //Written by GowinSynthesis
 //Tool Version "V1.9.11.03 Education"
-//Tue Nov 24 12:14:22 2026
+//Tue Nov 24 13:29:54 2026
 
 //Source file index table:
-//file0 "\C:/Users/pyqui/Desktop/arcade-os/arcade/src/main.v"
-//file1 "\C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v"
+//file0 "\C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v"
+//file1 "\C:/Users/pyqui/Desktop/arcade-os/arcade/src/main.v"
+//file2 "\C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/input_controller.v"
 `pragma protect begin_protected
 `pragma protect version="2.3"
 `pragma protect author="default"
@@ -16,19 +17,34 @@
 `pragma protect encoding=(enctype="base64", line_length=76, bytes=256)
 `pragma protect key_keyowner="GOWIN",key_keyname="GWK2023-09",key_method="rsa"
 `pragma protect key_block
-eJj3SScmVXRivhbtRiRKbjGx0k96+50CqNKyWNiCDnMN/gyAQgne3B1xjK9GLui5H0gVnLeNnWi9
-/GmlFUfTtzmdBc06HXzHplwDTIVG6MuabRnK5/Ggas6LMys7NT4WokMLGgEMRREKH+kDuSP4IYA8
-dHBoJSwZnS0VYg6Ryov5Vj262fojfTUC7k9Cy0tR0eFpAXCuaL0x9frZhO7SASjE11VfsVknOmh6
-AY61pU2HYFhBQudOPvpJo7U0QkZcs9js3cnNa1c0UTzp2NrZjkz1+S0JpD27YVfAjpHpSVIFIJEl
-lY9AAvGZFISHG4o28UWC4kCn3zqMvZgfqsUGnQ==
+b3q8M92uFw6rVrKPSoZT5w8HWhnakDkAWA/Q5bggTlfOqnYBdgZnDLKeY7Fr49kJaYt69U91nByG
+jMrz7BItj5pR/FGLCP4WDtKqxxKjI98EfNlKHLrqhxgNjp46Kd1qM+nVWC0d/lOjm4MbO/MRz7gK
+u7n4lLTy9PCSHpGR1687xuKT96aW0oIWEj/Dsnfi3Ylvk5d5D3558c58Ulhz4bXYNon86x7KglUp
+JodlA6lGGCMwTi9rKgLOgmmn9miUu7sAQCXpiTNS7PuCrlZQfI2quPsNgpdPhpsF3QPQ4wa5vZm7
+9BmyyFGB4hwfQsnmlIiMHtrNhz//h3Oq7xvpdg==
 
-`pragma protect encoding=(enctype="base64", line_length=76, bytes=208)
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=1040)
 `pragma protect data_keyowner="default-ip-vendor"
 `pragma protect data_keyname="default-ip-key"
 `pragma protect data_method="aes128-cfb"
 `pragma protect data_block
-0cHrrw6hxuspHS5iACmXwKfjbIEPVz+X/d2qb5eLUf2mNB9QZiznAfpOLEmVCe4qqbtTpE7hUET7
-/5QYeySrUkwW+YQvmI///SHLbPtgM2lPeXZWTRzmqRxLEv6gh1Nang+e4ryYn3N8Fi5Q9tG7l3TW
-qJpkjMaNRkF6RjDb8ZjehdYYpBsW6+vUf0YgJMrtFEvFv9nrnPi7ZVVmWcdtSsicIalENxMpRqXh
-UBGkqwmURqGJDXvRstHXHl8Owkq/5PwamGh1NlPaOcojXhMWow==
+oCOUiEEE4gLoGsclSNY3I6kw0vgCtj9bQe9SHTbnBDV/VbWy0Nezf9Dh7046kJgePgXyn8FdqOAP
+XZE7Jpg1RPc+B4alrxdC/y4vOLARMC1nt+4uhvTpATNZ8yzdL3SfrqWDPXNOByVV62gyfhIpJ/MA
+srDIvV7MaRjdIiP8FBJq3IRNceQiOjL8l8vr0cM+nJno4LKynu5cpMR1nDmhj31ktsMll45tPbbg
+DO481X05szgD03HH7CqfRSxeSUv4VrQFlaxVboX9zU1xm/bZh2P614o5vPGbblCkrg8PQGZfOlJV
+1LPlHkZ088PPw3iVg4TEgjQe/CIHXYuvcAyzZFuYWSYcc0AF9GQNGKdG5i+SFXbWyd++W0Ypqto7
+hTLb4QY4XWYhZb+g07rxaqvsremSBjVHyda5RO2uO15ASGcZyRKNvaNl3S/CENTzJ8Qrc/sDVKhd
+9UOyOazu2ZQcHvr8/VrQ4Kd6+PwHTjkMFsgx3hfwhGq5Dfze+AJueKPy3Czz0xvOESSPEmvAQ5ZW
+vWZuNlmW1yYp7bdMuLdxIxPuY1Gfd7ZsbVcthTuM0XfAGzFRPKSdtv18eL1rvy8Pr9zKhTyHy6QG
+Bf4G4vLYAL+Qt6C3HRntwzYNgtIgt6GXqGFiCVVBL0tAca1135a/yz1/ZEOcNKQXwJE5gHl3yXiJ
+O6CemqSZ2zHDBUn7T9zYdBrExWr9BWlzFtMiKwhWBike1MaQE1acG/NxOovSxmlQ4Nhp+2CWMm4c
+OFJPMpOO3EZnNB6cncpCM9oXuyvB/PtPJqz9PyotTo0QHkKl4IXKnKKFTl/PZZP3otZuquZpOCKQ
+UZzITudVq8ZDShsmMYHAetE92Mq04ypNNZbrrYe3R0TMjuvxZ0xwVar4yzpGzFuUsFCHISYWRiBL
+ZK3xkAfr3fNVK3xjHf9LstrIqm19CCoG2qiDBmfzJysyB0akwm2Bnq3hN8F9okh1Ur+UAFZ4JtXR
+ek5deeef8p+w9o5BZT9y9n9ri3Ws4stGZrGtEXU9tAEAn1RzoTU/tGoQ4DwK9045Td4DYsMGuC3o
+i3BSqIAyxnolgrs0U54aDXZudbFEm1SppGXCejmvmfw1tfjNbfDWRQfUiQ66SKlYBuAE2AU25r3R
+q3CaHCuGDp01BLNC4FCdmHBaFCTZ3FkF94j6LhjcaJuy1bAzklqnBiJdaEH+RCXY5i4UBMImRa4T
+MGjKLVtqBwRGSTUL8zZsJmyPiHvgn7PVfHplRoDEy5v8cXS/cGw3fCJyCT1D4p+zwYrfNxDg0i2B
+z0qgDxng6XVSVwB+wCqkZgRVsZPDJew1bCV10uAI4muUHTeCu1KICUNOsyKZ4X6J20bo9qpbxKG2
+gDBJJLLBVMzys7aPNFQ=
 `pragma protect end_protected

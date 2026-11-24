@@ -1,6 +1,7 @@
 -d C:\Users\pyqui\Desktop\arcade-os\arcade\impl\gwsynthesis\arcade.vg
 -p GW2A-18C-PBGA256-8
 -pn GW2A-LV18PG256C8/I7
+-cst C:\Users\pyqui\Desktop\arcade-os\arcade\src\main.cst
 -cfg C:\Users\pyqui\Desktop\arcade-os\arcade\impl\pnr\device.cfg
 -bit
 -tr

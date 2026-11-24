@@ -4,7 +4,7 @@ module main(
     input wire button_left,
     input wire button_right,
     input wire button_center,
-    output wire up_pressed
+    output wire [4:0] led
 );
 
     a1_bus bus(
@@ -13,7 +13,7 @@ module main(
         .button_left(button_left),
         .button_right(button_right),
         .button_center(button_center),
-        .up_pressed(up_pressed)
+        .led(led)
     );
 
 endmodule

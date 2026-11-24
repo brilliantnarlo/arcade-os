@@ -4,7 +4,7 @@ module input_controller(
     input wire button_left,
     input wire button_right,
     input wire button_center,
-    output reg up_pressed,
+    output reg [4:0] led
 );
 
 
@@ -12,7 +12,11 @@ module input_controller(
     always @(*) begin
         // Implement your input controller logic here
         // For example, you can assign the button states to output signals
-        up_pressed = button_up;
+        led[0] = button_up;
+        led[1] = button_down;
+        led[2] = button_left;
+        led[3] = button_right;
+        led[4] = button_center;
 
     end
 

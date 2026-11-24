@@ -1,7 +1,8 @@
 Reading netlist file: "C:\Users\pyqui\Desktop\arcade-os\arcade\impl\gwsynthesis\arcade.vg"
-WARN  (PA1005) : "C:\Users\pyqui\Desktop\arcade-os\arcade\impl\gwsynthesis\arcade.vg":37 | Module 'main' contains empty port list
 Parsing netlist file "C:\Users\pyqui\Desktop\arcade-os\arcade\impl\gwsynthesis\arcade.vg" completed
 Processing netlist completed
+Reading constraint file: "C:\Users\pyqui\Desktop\arcade-os\arcade\src\main.cst"
+Physical Constraint parsed completed
 Running placement......
 [10%] Placement Phase 0 completed
 [20%] Placement Phase 1 completed
@@ -10,6 +11,7 @@ Running placement......
 Running routing......
 [60%] Routing Phase 0 completed
 [70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
 [90%] Routing Phase 3 completed
 Running timing analysis......
 [95%] Timing analysis completed
@@ -23,5 +25,5 @@ Generate file "C:\Users\pyqui\Desktop\arcade-os\arcade\impl\pnr\arcade.pin.html"
 Generate file "C:\Users\pyqui\Desktop\arcade-os\arcade\impl\pnr\arcade.rpt.html" completed
 Generate file "C:\Users\pyqui\Desktop\arcade-os\arcade\impl\pnr\arcade.rpt.txt" completed
 Generate file "C:\Users\pyqui\Desktop\arcade-os\arcade\impl\pnr\arcade.tr.html" completed
-Tue Nov 24 12:14:25 2026
+Tue Nov 24 13:29:58 2026
 
