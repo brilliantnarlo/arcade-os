@@ -30,6 +30,10 @@ module a1_bus(
     wire [7:0]  green;
     wire [7:0]  blue;
 
+    wire [7:0]  text_red;
+    wire [7:0]  text_green;
+    wire [7:0]  text_blue;
+
     wire gui_hsync;
     wire gui_vsync;
     wire gui_de;

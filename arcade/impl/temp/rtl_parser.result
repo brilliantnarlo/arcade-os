@@ -17,7 +17,7 @@
     "SubInsts" : [
      {
       "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
-      "InstLine" : 95,
+      "InstLine" : 99,
       "InstName" : "your_instance_name",
       "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/dvi_tx/dvi_tx.v",
       "ModuleLine" : 9,
@@ -25,7 +25,7 @@
      },
      {
       "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
-      "InstLine" : 40,
+      "InstLine" : 44,
       "InstName" : "rpll",
       "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/gowin_rpll/gowin_rpll.v",
       "ModuleLine" : 10,
@@ -33,7 +33,7 @@
      },
      {
       "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
-      "InstLine" : 46,
+      "InstLine" : 50,
       "InstName" : "clkdiv",
       "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/gowin_clkdiv/gowin_clkdiv.v",
       "ModuleLine" : 10,
@@ -41,7 +41,7 @@
      },
      {
       "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
-      "InstLine" : 53,
+      "InstLine" : 57,
       "InstName" : "input_ctrl",
       "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/input_controller.v",
       "ModuleLine" : 1,
@@ -49,7 +49,7 @@
      },
      {
       "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
-      "InstLine" : 63,
+      "InstLine" : 67,
       "InstName" : "vt",
       "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/video_timing.v",
       "ModuleLine" : 1,
@@ -57,7 +57,7 @@
      },
      {
       "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/a1_bus.v",
-      "InstLine" : 75,
+      "InstLine" : 79,
       "InstName" : "gr",
       "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/graphic_render.v",
       "ModuleLine" : 3,
@@ -69,7 +69,27 @@
         "InstName" : "gui_menu",
         "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
         "ModuleLine" : 1,
-        "ModuleName" : "menu"
+        "ModuleName" : "menu",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
+          "InstLine" : 14,
+          "InstName" : "text",
+          "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "font_render",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+            "InstLine" : 30,
+            "InstName" : "font",
+            "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_rom.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "font_rom"
+           }
+          ]
+         }
+        ]
        }
       ]
      }

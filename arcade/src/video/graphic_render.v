@@ -29,6 +29,8 @@ module graphic_render(
         .x(x),
         .y(y),
 
+        .de_in(de_in),
+
         .red(draw_red),
         .green(draw_green),
         .blue(draw_blue)
