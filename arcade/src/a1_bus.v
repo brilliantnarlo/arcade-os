@@ -85,6 +85,9 @@ module a1_bus(
 
         .x(x),
         .y(y),
+
+        .button_up(button_up),
+        .button_down(button_down),
         
         .hsync_out(gui_hsync),
         .vsync_out(gui_vsync),

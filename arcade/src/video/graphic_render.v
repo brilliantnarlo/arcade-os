@@ -11,6 +11,9 @@ module graphic_render(
         input  wire [10:0] x,
         input  wire [9:0]  y,
 
+        input  wire button_up,
+        input  wire button_down,
+
         output reg hsync_out,
         output reg vsync_out,
         output reg de_out,
@@ -28,6 +31,9 @@ module graphic_render(
     menu gui_menu(
         .x(x),
         .y(y),
+
+        .button_up(button_up),
+        .button_down(button_down),
 
         .de_in(de_in),
 

@@ -44,6 +44,10 @@
   {
    "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
    "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/game_manager.v",
+   "Type" : "verilog"
   }
  ],
  "IncludePath" : [

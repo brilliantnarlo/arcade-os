@@ -10,6 +10,7 @@
         <File path="src/gowin_clkdiv/gowin_clkdiv.v" type="file.verilog" enable="1"/>
         <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
         <File path="src/main.v" type="file.verilog" enable="1"/>
+        <File path="src/system/game_manager.v" type="file.verilog" enable="1"/>
         <File path="src/system/input_controller.v" type="file.verilog" enable="1"/>
         <File path="src/system/menu.v" type="file.verilog" enable="1"/>
         <File path="src/video/font_render.v" type="file.verilog" enable="1"/>
