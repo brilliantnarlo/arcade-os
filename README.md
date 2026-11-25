@@ -105,3 +105,19 @@ Under development.
 ---
 
 **Built from the ground up with Verilog HDL and FPGA technology.**
+
+
+## Run simulation
+
+Double-click [arcade-sim.exe](C:/Users/pyqui/Desktop/arcade-os/simulator/build/arcade-sim.exe), or run this from PowerShell in the arcade-os folder:
+```bash
+.\simulator\build\arcade-sim.exe
+```
+
+Use ↑/↓ to select a game, Enter to open Pong, R to return to the arcade menu, and Esc to close the window.
+
+After changing the Verilog, close the simulator and rebuild it before reopening:
+
+```bash
+& C:/msys64/usr/bin/bash.exe simulator/build.sh
+```
