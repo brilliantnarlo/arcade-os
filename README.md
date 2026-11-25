@@ -72,33 +72,6 @@ flowchart TD
     F --> J["Audio Output"]
 ```
 
-## Project Objectives
-
-The primary objective of Arcade OS is to explore digital hardware programming by developing a fully functional arcade gaming console from scratch using an FPGA.
-
-The project demonstrates the practical application of:
-
-- Combinational and sequential logic.
-- Registers and counters.
-- Multiplexers and decoders.
-- Finite state machines (FSMs).
-- FPGA memory architecture.
-- Clock management and timing.
-- Video signal generation.
-- Hardware-based graphics processing.
-- Digital signal processing.
-- Hardware resource optimization.
-- Parallel processing.
-- Modular digital system design.
-
-## Technology Stack
-
-- **Hardware:** Sipeed Tang Primer 20K
-- **FPGA:** Gowin GW2A-18C
-- **Language:** Verilog HDL
-- **Development Tools:** Gowin EDA
-- **Display Interface:** VGA / HDMI
-- **Input Interface:** GPIO
 
 ## Development Roadmap
 
