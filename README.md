@@ -75,7 +75,7 @@ flowchart TD
 
 ## Development Roadmap
 
-- [ ] System architecture design
+- [ -] System architecture design
 - [ ] Video signal generation
 - [ ] Graphics rendering engine
 - [ ] Bitmap font rendering
