@@ -6,6 +6,7 @@
     <FileList>
         <File path="C:\Users\pyqui\Desktop\arcade-os\arcade\src\a1_bus.v" type="verilog"/>
         <File path="C:\Users\pyqui\Desktop\arcade-os\arcade\src\dvi_tx\dvi_tx.v" type="verilog"/>
+        <File path="C:\Users\pyqui\Desktop\arcade-os\arcade\src\games\pong\pong.v" type="verilog"/>
         <File path="C:\Users\pyqui\Desktop\arcade-os\arcade\src\gowin_clkdiv\gowin_clkdiv.v" type="verilog"/>
         <File path="C:\Users\pyqui\Desktop\arcade-os\arcade\src\gowin_rpll\gowin_rpll.v" type="verilog"/>
         <File path="C:\Users\pyqui\Desktop\arcade-os\arcade\src\main.v" type="verilog"/>
@@ -16,7 +17,6 @@
         <File path="C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v" type="verilog"/>
         <File path="C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\graphic_render.v" type="verilog"/>
         <File path="C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\video_timing.v" type="verilog"/>
-        <File path="C:\Users\pyqui\Desktop\arcade-os\arcade\src\games\pong\pong.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>

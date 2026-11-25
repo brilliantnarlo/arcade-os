@@ -10,6 +10,10 @@
    "Type" : "verilog"
   },
   {
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/games/pong/pong.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/gowin_clkdiv/gowin_clkdiv.v",
    "Type" : "verilog"
   },
@@ -47,10 +51,6 @@
   },
   {
    "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/video_timing.v",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/games/pong/pong.v",
    "Type" : "verilog"
   }
  ],
