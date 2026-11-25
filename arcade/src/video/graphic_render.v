@@ -2,7 +2,7 @@
 
 module graphic_render(
         input wire clk,
-        input wire reset,
+        input wire reset_n,
 
         input wire hsync_in,
         input wire vsync_in,
@@ -29,6 +29,9 @@ module graphic_render(
     wire [7:0] draw_blue;
 
     menu gui_menu(
+        .clk(clk),
+        .reset_n(reset_n),
+
         .x(x),
         .y(y),
 
@@ -42,8 +45,8 @@ module graphic_render(
         .blue(draw_blue)
     );
 
-    always @(posedge clk or negedge reset) begin
-        if (!reset) begin
+    always @(posedge clk or negedge reset_n) begin
+        if (!reset_n) begin
             hsync_out <= 1'b0;            
             vsync_out <= 1'b0;            
             de_out    <= 1'b0;            

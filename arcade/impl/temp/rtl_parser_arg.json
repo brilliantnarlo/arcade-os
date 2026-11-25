@@ -22,6 +22,10 @@
    "Type" : "verilog"
   },
   {
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/game_manager.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/input_controller.v",
    "Type" : "verilog"
   },
@@ -30,11 +34,7 @@
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/graphic_render.v",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/video_timing.v",
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
    "Type" : "verilog"
   },
   {
@@ -42,11 +42,11 @@
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/graphic_render.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/game_manager.v",
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/video_timing.v",
    "Type" : "verilog"
   }
  ],

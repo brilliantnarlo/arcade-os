@@ -78,7 +78,7 @@ module a1_bus(
 
     graphic_render gr(
         .clk(pixel_clk),
-        .reset(video_reset_n),
+        .reset_n(video_reset_n),
         .hsync_in(raw_hsync),
         .vsync_in(raw_vsync),
         .de_in(raw_de),

@@ -1,11 +1,14 @@
 module menu(
+    input wire clk,
+    input wire reset_n,
+
     input wire [10:0] x,
     input wire [9:0]  y,
 
     input wire button_up,
     input wire button_down,
     
-    input wire        de_in,
+    input wire de_in,
 
     output reg [7:0] red,
     output reg [7:0] green,
@@ -223,7 +226,19 @@ module menu(
         {red, green, blue} = 24'h000000;
 
         if (de_in && x < 11'd640 && y < 10'd480) begin
-            if (text_on || pong_on || breakout_on || snake_on || tic_tac_toe_on || racing_on || flappy_on || tetris_on || space_invaders_on || pacman_on || platformer_on || instruction_on)
+            if ( (pong_on     && selected_game == 4'd1) || 
+                 (breakout_on && selected_game == 4'd2) || 
+                 (snake_on && selected_game == 4'd3) || 
+                 (tic_tac_toe_on && selected_game == 4'd4) || 
+                 (racing_on && selected_game == 4'd5) || 
+                 (flappy_on && selected_game == 4'd6) || 
+                 (tetris_on && selected_game == 4'd7) || 
+                 (space_invaders_on && selected_game == 4'd8) || 
+                 (pacman_on && selected_game == 4'd9) || 
+                 (platformer_on && selected_game == 4'd10))
+                {red, green, blue} = 24'hFFFF00;
+
+            else if (text_on || pong_on || breakout_on || snake_on || tic_tac_toe_on || racing_on || flappy_on || tetris_on || space_invaders_on || pacman_on || platformer_on || instruction_on)
                 {red, green, blue} = 24'hFFFFFF;
             else
                 {red, green, blue} = 24'h000000;
