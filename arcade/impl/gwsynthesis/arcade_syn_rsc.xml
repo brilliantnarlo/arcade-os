@@ -1,48 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="main" T_Register="145(0)" T_Alu="69(0)" T_Lut="1082(0)">
- <SubModule name="bus" Register="73" Alu="69" Lut="229" T_Register="145(73)" T_Alu="69(69)" T_Lut="1082(229)">
+<Module name="main" T_Register="149(0)" T_Alu="72(0)" T_Lut="1132(0)">
+ <SubModule name="bus" Register="73" Alu="69" Lut="229" T_Register="149(73)" T_Alu="72(69)" T_Lut="1132(229)">
   <SubModule name="rpll"/>
   <SubModule name="clkdiv"/>
   <SubModule name="vt" Register="42" Lut="65" T_Register="42(42)" T_Lut="65(65)"/>
-  <SubModule name="gr" Register="2" Lut="24" T_Register="30(2)" T_Lut="788(24)">
-   <SubModule name="gui_menu" T_Register="28(0)" T_Lut="764(0)">
-    <SubModule name="text" Lut="5" T_Lut="70(5)">
-     <SubModule name="font" Lut="65" T_Lut="65(65)"/>
+  <SubModule name="gr" Register="2" Lut="24" T_Register="34(2)" T_Alu="3(0)" T_Lut="838(24)">
+   <SubModule name="gm" Register="32" Alu="3" Lut="53" T_Register="32(32)" T_Alu="3(3)" T_Lut="53(53)"/>
+   <SubModule name="gui_menu" T_Lut="726(0)">
+    <SubModule name="text" Lut="5" T_Lut="58(5)">
+     <SubModule name="font" Lut="53" T_Lut="53(53)"/>
     </SubModule>
-    <SubModule name="pong" Lut="5" T_Lut="64(5)">
-     <SubModule name="font" Lut="59" T_Lut="59(59)"/>
+    <SubModule name="pong" Lut="5" T_Lut="55(5)">
+     <SubModule name="font" Lut="50" T_Lut="50(50)"/>
     </SubModule>
-    <SubModule name="breakout" Lut="4" T_Lut="70(4)">
-     <SubModule name="font" Lut="66" T_Lut="66(66)"/>
+    <SubModule name="breakout" Lut="4" T_Lut="75(4)">
+     <SubModule name="font" Lut="71" T_Lut="71(71)"/>
     </SubModule>
-    <SubModule name="snake" Lut="6" T_Lut="49(6)">
-     <SubModule name="font" Lut="43" T_Lut="43(43)"/>
+    <SubModule name="snake" Lut="6" T_Lut="48(6)">
+     <SubModule name="font" Lut="42" T_Lut="42(42)"/>
     </SubModule>
-    <SubModule name="tic_tac_toe" Lut="4" T_Lut="41(4)">
-     <SubModule name="font" Lut="37" T_Lut="37(37)"/>
+    <SubModule name="tic_tac_toe" Lut="4" T_Lut="42(4)">
+     <SubModule name="font" Lut="38" T_Lut="38(38)"/>
     </SubModule>
-    <SubModule name="racing" Lut="4" T_Lut="49(4)">
-     <SubModule name="font" Lut="45" T_Lut="45(45)"/>
+    <SubModule name="racing" Lut="4" T_Lut="45(4)">
+     <SubModule name="font" Lut="41" T_Lut="41(41)"/>
     </SubModule>
-    <SubModule name="flappy" Lut="4" T_Lut="37(4)">
+    <SubModule name="flappy" Lut="4" T_Lut="36(4)">
+     <SubModule name="font" Lut="32" T_Lut="32(32)"/>
+    </SubModule>
+    <SubModule name="tetris" Lut="4" T_Lut="37(4)">
      <SubModule name="font" Lut="33" T_Lut="33(33)"/>
     </SubModule>
-    <SubModule name="tetris" Lut="4" T_Lut="39(4)">
-     <SubModule name="font" Lut="35" T_Lut="35(35)"/>
+    <SubModule name="space_invaders" Lut="4" T_Lut="83(4)">
+     <SubModule name="font" Lut="79" T_Lut="79(79)"/>
     </SubModule>
-    <SubModule name="space_invaders" Lut="4" T_Lut="77(4)">
-     <SubModule name="font" Lut="73" T_Lut="73(73)"/>
+    <SubModule name="pacman" Lut="4" T_Lut="44(4)">
+     <SubModule name="font" Lut="40" T_Lut="40(40)"/>
     </SubModule>
-    <SubModule name="pacman" Lut="4" T_Lut="43(4)">
-     <SubModule name="font" Lut="39" T_Lut="39(39)"/>
+    <SubModule name="platformer" Lut="4" T_Lut="58(4)">
+     <SubModule name="font" Lut="54" T_Lut="54(54)"/>
     </SubModule>
-    <SubModule name="platformer" Lut="4" T_Lut="52(4)">
-     <SubModule name="font" Lut="48" T_Lut="48(48)"/>
+    <SubModule name="instruction" Lut="4" T_Lut="145(4)">
+     <SubModule name="font" Lut="141" T_Lut="141(141)"/>
     </SubModule>
-    <SubModule name="instruction" Lut="4" T_Lut="126(4)">
-     <SubModule name="font" Lut="122" T_Lut="122(122)"/>
+   </SubModule>
+   <SubModule name="menu_game" T_Lut="35(0)">
+    <SubModule name="pong_title" Lut="4" T_Lut="35(4)">
+     <SubModule name="font" Lut="31" T_Lut="31(31)"/>
     </SubModule>
-    <SubModule name="gm" Register="28" Lut="47" T_Register="28(28)" T_Lut="47(47)"/>
    </SubModule>
   </SubModule>
  </SubModule>

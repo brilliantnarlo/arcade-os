@@ -1,14 +1,9 @@
 module menu(
-    input wire clk,
-    input wire reset_n,
-
     input wire [10:0] x,
     input wire [9:0]  y,
 
-    input wire button_up,
-    input wire button_down,
-    
-    input wire de_in,
+    input wire       de_in,
+    input wire [3:0] selected_game,
 
     output reg [7:0] red,
     output reg [7:0] green,
@@ -209,17 +204,6 @@ module menu(
         .green(),
         .blue(),
         .text_on(instruction_on)
-    );
-
-    
-    wire [3:0] selected_game;
-
-    game_manager gm(
-        .clk(clk),
-        .reset_n(reset_n),
-        .button_up(button_up),
-        .button_down(button_down),
-        .selected_game(selected_game)
     );
 
     always @(*) begin

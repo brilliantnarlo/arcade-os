@@ -13,6 +13,7 @@ module graphic_render(
 
         input  wire button_up,
         input  wire button_down,
+        input  wire button_center,
 
         output reg hsync_out,
         output reg vsync_out,
@@ -23,12 +24,35 @@ module graphic_render(
         output reg [7:0] blue
 );
 
-    // Internal RGB wires
-    wire [7:0] draw_red;
-    wire [7:0] draw_green;
-    wire [7:0] draw_blue;
+    localparam PONG = 1'b1;
+
+    wire [3:0] selected_game;
+    wire       mode;
+    wire [23:0] menu_rgb;
+    wire [23:0] pong_rgb;
+
+    game_manager gm(
+        .clk(clk),
+        .reset_n(reset_n),
+        .button_up(button_up),
+        .button_down(button_down),
+        // The Center switch input has a pull-up.
+        .button_center(~button_center),
+        .selected_game(selected_game),
+        .mode(mode)
+    );
 
     menu gui_menu(
+        .x(x),
+        .y(y),
+        .de_in(de_in),
+        .selected_game(selected_game),
+        .red(menu_rgb[23:16]),
+        .green(menu_rgb[15:8]),
+        .blue(menu_rgb[7:0])
+    );
+
+    pong menu_game(
         .clk(clk),
         .reset_n(reset_n),
 
@@ -40,10 +64,11 @@ module graphic_render(
 
         .de_in(de_in),
 
-        .red(draw_red),
-        .green(draw_green),
-        .blue(draw_blue)
+        .red(pong_rgb[23:16]),
+        .green(pong_rgb[15:8]),
+        .blue(pong_rgb[7:0])
     );
+
 
     always @(posedge clk or negedge reset_n) begin
         if (!reset_n) begin
@@ -62,17 +87,10 @@ module graphic_render(
             vsync_out <= vsync_in;            
             de_out    <= de_in; 
 
-            if (de_in) begin   
-                red   <= draw_red;
-                green <= draw_green;
-                blue  <= draw_blue;
-
-            end            
-            else begin                
-                red   <= 8'd0;                
-                green <= 8'd0;                
-                blue  <= 8'd0;            
-            end
+            if (de_in)
+                {red, green, blue} <= (mode == PONG) ? pong_rgb : menu_rgb;
+            else
+                {red, green, blue} <= 24'h000000;
         end
 
 

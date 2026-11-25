@@ -48,6 +48,10 @@
   {
    "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/video_timing.v",
    "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/games/pong/pong.v",
+   "Type" : "verilog"
   }
  ],
  "IncludePath" : [
