@@ -1,2 +1,2 @@
 *.tpl linguist-language=Verilog
-*.html linguist-detectable=false
+*.F# linguist-detectable=false
