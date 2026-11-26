@@ -1,4 +1,4 @@
-module pong(
+module pong_menu(
     input wire clk,
     input wire reset_n,
 

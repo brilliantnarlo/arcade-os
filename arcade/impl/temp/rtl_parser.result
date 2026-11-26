@@ -66,15 +66,15 @@
        {
         "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/graphic_render.v",
         "InstLine" : 34,
-        "InstName" : "gm",
-        "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/game_manager.v",
+        "InstName" : "mm",
+        "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu_manager.v",
         "ModuleLine" : 1,
-        "ModuleName" : "game_manager"
+        "ModuleName" : "menu_manager"
        },
        {
         "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/graphic_render.v",
         "InstLine" : 45,
-        "InstName" : "gui_menu",
+        "InstName" : "main_menu",
         "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
         "ModuleLine" : 1,
         "ModuleName" : "menu",
@@ -300,13 +300,13 @@
        {
         "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/graphic_render.v",
         "InstLine" : 55,
-        "InstName" : "menu_game",
-        "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/games/pong/pong.v",
+        "InstName" : "pong_menu",
+        "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/games/pong/pong_menu.v",
         "ModuleLine" : 1,
-        "ModuleName" : "pong",
+        "ModuleName" : "pong_menu",
         "SubInsts" : [
          {
-          "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/games/pong/pong.v",
+          "InstFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/games/pong/pong_menu.v",
           "InstLine" : 24,
           "InstName" : "pong_title",
           "ModuleFile" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/video/font_render.v",

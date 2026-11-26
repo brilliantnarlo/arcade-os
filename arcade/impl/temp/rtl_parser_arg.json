@@ -10,7 +10,7 @@
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/games/pong/pong.v",
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/games/pong/pong_menu.v",
    "Type" : "verilog"
   },
   {
@@ -26,15 +26,15 @@
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/game_manager.v",
-   "Type" : "verilog"
-  },
-  {
    "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/input_controller.v",
    "Type" : "verilog"
   },
   {
    "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/pyqui/Desktop/arcade-os/arcade/src/system/menu_manager.v",
    "Type" : "verilog"
   },
   {

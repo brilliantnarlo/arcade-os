@@ -1,4 +1,4 @@
-module game_manager(
+module menu_manager(
     input  wire       clk,
     input  wire       reset_n,
     input  wire       button_up,

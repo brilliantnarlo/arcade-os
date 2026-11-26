@@ -5,8 +5,8 @@
   <SubModule name="clkdiv"/>
   <SubModule name="vt" Register="42" Lut="65" T_Register="42(42)" T_Lut="65(65)"/>
   <SubModule name="gr" Register="2" Lut="24" T_Register="34(2)" T_Alu="3(0)" T_Lut="838(24)">
-   <SubModule name="gm" Register="32" Alu="3" Lut="53" T_Register="32(32)" T_Alu="3(3)" T_Lut="53(53)"/>
-   <SubModule name="gui_menu" T_Lut="726(0)">
+   <SubModule name="mm" Register="32" Alu="3" Lut="53" T_Register="32(32)" T_Alu="3(3)" T_Lut="53(53)"/>
+   <SubModule name="main_menu" T_Lut="726(0)">
     <SubModule name="text" Lut="5" T_Lut="58(5)">
      <SubModule name="font" Lut="53" T_Lut="53(53)"/>
     </SubModule>
@@ -44,7 +44,7 @@
      <SubModule name="font" Lut="141" T_Lut="141(141)"/>
     </SubModule>
    </SubModule>
-   <SubModule name="menu_game" T_Lut="35(0)">
+   <SubModule name="pong_menu" T_Lut="35(0)">
     <SubModule name="pong_title" Lut="4" T_Lut="35(4)">
      <SubModule name="font" Lut="31" T_Lut="31(31)"/>
     </SubModule>

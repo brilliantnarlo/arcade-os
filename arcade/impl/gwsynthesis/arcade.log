@@ -2,13 +2,13 @@ GowinSynthesis start
 Running parser ...
 Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\a1_bus.v'
 Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\dvi_tx\dvi_tx.v'
-Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\games\pong\pong.v'
+Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\games\pong\pong_menu.v'
 Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\gowin_clkdiv\gowin_clkdiv.v'
 Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\gowin_rpll\gowin_rpll.v'
 Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\main.v'
-Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\system\game_manager.v'
 Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\system\input_controller.v'
 Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\system\menu.v'
+Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\system\menu_manager.v'
 Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v'
 Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_rom.v'
 Analyzing Verilog file 'C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\graphic_render.v'
@@ -22,7 +22,7 @@ Compiling module 'video_timing'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\vid
 WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\video_timing.v":82)
 WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\video_timing.v":83)
 Compiling module 'graphic_render'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\graphic_render.v":3)
-Compiling module 'game_manager'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\system\game_manager.v":1)
+Compiling module 'menu_manager'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\system\menu_manager.v":1)
 Compiling module 'menu'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\system\menu.v":1)
 Compiling module 'font_render(TEXT_X=25,TEXT_Y=25,TEXT_LEN=12,TEXT="ARCADE GAMES")'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":1)
 WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":29)
@@ -62,7 +62,7 @@ WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users
 Compiling module 'font_render(TEXT_X=25,TEXT_Y=270,TEXT_LEN=37,TEXT="SELECT A GAME: UP\DOWN   PLAY: CENTER")'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":1)
 WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":29)
 WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":30)
-Compiling module 'pong'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\games\pong\pong.v":1)
+Compiling module 'pong_menu'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\games\pong\pong_menu.v":1)
 Compiling module 'font_render(TEXT_X=25,TEXT_Y=25,TEXT_LEN=9,TEXT="PONG MENU")'("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":1)
 WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":29)
 WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Users\pyqui\Desktop\arcade-os\arcade\src\video\font_render.v":30)

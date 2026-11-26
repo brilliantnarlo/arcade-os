@@ -31,7 +31,7 @@ module graphic_render(
     wire [23:0] menu_rgb;
     wire [23:0] pong_rgb;
 
-    game_manager gm(
+    menu_manager mm(
         .clk(clk),
         .reset_n(reset_n),
         .button_up(button_up),
@@ -42,7 +42,7 @@ module graphic_render(
         .mode(mode)
     );
 
-    menu gui_menu(
+    menu main_menu(
         .x(x),
         .y(y),
         .de_in(de_in),
@@ -52,7 +52,7 @@ module graphic_render(
         .blue(menu_rgb[7:0])
     );
 
-    pong menu_game(
+    pong_menu pong_menu(
         .clk(clk),
         .reset_n(reset_n),
 
